@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "d48ceee838725365517f48185c3cadca",
@@ -839,16 +839,16 @@
         },
         {
             "name": "doctrine/migrations",
-            "version": "v1.7.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "bb942dfc9364d97662325678ef6ba0e8fc6ff4df"
+                "reference": "d3e8b903233d5fb7f00193c95eec501f27c0b908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/bb942dfc9364d97662325678ef6ba0e8fc6ff4df",
-                "reference": "bb942dfc9364d97662325678ef6ba0e8fc6ff4df",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/d3e8b903233d5fb7f00193c95eec501f27c0b908",
+                "reference": "d3e8b903233d5fb7f00193c95eec501f27c0b908",
                 "shasum": ""
             },
             "require": {
@@ -908,7 +908,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2018-05-05T22:46:31+00:00"
+            "time": "2018-05-07T12:37:11+00:00"
         },
         {
             "name": "doctrine/orm",
@@ -3046,16 +3046,16 @@
         },
         {
             "name": "sonata-project/user-bundle",
-            "version": "4.1.1",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataUserBundle.git",
-                "reference": "a0c57fbb97d796989d4b584caa3733aef8ce49c0"
+                "reference": "ef3f6d1529117f49766eeef49c6e837936030547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataUserBundle/zipball/a0c57fbb97d796989d4b584caa3733aef8ce49c0",
-                "reference": "a0c57fbb97d796989d4b584caa3733aef8ce49c0",
+                "url": "https://api.github.com/repos/sonata-project/SonataUserBundle/zipball/ef3f6d1529117f49766eeef49c6e837936030547",
+                "reference": "ef3f6d1529117f49766eeef49c6e837936030547",
                 "shasum": ""
             },
             "require": {
@@ -3080,7 +3080,7 @@
                 "symfony/translation": "^2.8 || ^3.2 || ^4.0"
             },
             "conflict": {
-                "friendsofsymfony/rest-bundle": "<1.1",
+                "friendsofsymfony/rest-bundle": "<2.1 || >=3.0",
                 "jms/serializer": "<0.13 || >=2.0",
                 "nelmio/api-doc-bundle": "<2.4",
                 "sonata-project/block-bundle": "<3.11",
@@ -3090,8 +3090,8 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.0",
-                "friendsofsymfony/rest-bundle": "^1.5 || ^2.0",
-                "jms/serializer-bundle": "^0.13 || ^1.0",
+                "friendsofsymfony/rest-bundle": "^2.1",
+                "jms/serializer-bundle": "^1.0 || ^2.0",
                 "matthiasnoback/symfony-config-test": "^2.1",
                 "matthiasnoback/symfony-dependency-injection-test": "^1.1",
                 "nelmio/api-doc-bundle": "^2.4",
@@ -3141,7 +3141,7 @@
                 "sonata",
                 "user"
             ],
-            "time": "2018-02-08T10:18:27+00:00"
+            "time": "2018-05-08T09:08:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

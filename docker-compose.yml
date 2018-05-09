@@ -8,8 +8,6 @@ services:
       image: mysql:5.7
       container_name: docker-symfony4-mysql
       working_dir: /application
-      volumes:
-        - .:/application
       environment:
         - MYSQL_ROOT_PASSWORD=dbrootpw
         - MYSQL_DATABASE=docker_symfony4
@@ -17,6 +15,9 @@ services:
         - MYSQL_PASSWORD=dbpw
       ports:
         - "8002:3306"
+      volumes:
+        - .:/application
+        - mysql_data:/var/lib/mysql
 
     webserver:
       image: nginx:alpine
@@ -36,3 +37,5 @@ services:
         - .:/application
         - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.2/fpm/conf.d/99-overrides.ini
 
+volumes:
+  mysql_data:

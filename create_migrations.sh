@@ -1,6 +1,3 @@
-docker-compose up -d
-echo waiting 30 sec - do not ask why
-sleep 30
 docker-compose exec -d php-fpm php bin/console make:migration &&#
 docker-compose exec -d php-fpm php bin/console doctrine:migrations:migrate -q &&#
 docker-compose exec -d php-fpm php bin/console doctrine:schema:update --force &&#
